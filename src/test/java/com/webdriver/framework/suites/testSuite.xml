@@ -1,0 +1,10 @@
+<!DOCTYPE suite SYSTEM "http://beust.com/testng/testng-1.0.dtd" >
+<suite name="WebDriverFramework">
+		 
+	<test name="testing" preserve-order = "false" time-out = "60000">	
+		<classes>
+			<class name="com.webdriver.framework.tests.HomePageFeaturesTest" />
+			<class name="com.webdriver.framework.tests.HomePageTabsTest" />
+		</classes>
+	</test>
+</suite>
