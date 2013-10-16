@@ -14,7 +14,7 @@ public class HomePageFeaturesTest extends SetupTest{
 	HomePagePageObject homePageFeaturesSection = new HomePagePageObject(driver);
 	homePageFeaturesSection.get();
 	Assert.assertTrue(homePageFeaturesSection.isFeatureDisplayed());
-	Assert.assertEquals(homePageFeaturesSection.getFeatureNumber(),	7);
+	Assert.assertEquals(homePageFeaturesSection.getFeatureNumber(),	8);
 	Assert.assertTrue(homePageFeaturesSection.areThumbnailsExist());
 	homePageFeaturesSection.clickOnFeature(4);
 	Assert.assertTrue(homePageFeaturesSection.isUserRedirectedToCorrectPage(), 

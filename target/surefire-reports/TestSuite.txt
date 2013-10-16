@@ -1,0 +1,13 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 4, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 60.803 sec <<< FAILURE! - in TestSuite
+homePageFeatures(com.webdriver.framework.tests.HomePageFeaturesTest)  Time elapsed: 9.137 sec  <<< FAILURE!
+java.lang.AssertionError: expected:<7> but was:<8>
+	at org.testng.Assert.fail(Assert.java:89)
+	at org.testng.Assert.failNotEquals(Assert.java:489)
+	at org.testng.Assert.assertEquals(Assert.java:118)
+	at org.testng.Assert.assertEquals(Assert.java:365)
+	at org.testng.Assert.assertEquals(Assert.java:375)
+	at com.webdriver.framework.tests.HomePageFeaturesTest.homePageFeatures(HomePageFeaturesTest.java:17)
+
