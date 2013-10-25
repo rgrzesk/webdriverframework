@@ -4,7 +4,7 @@ import org.openqa.selenium.WebDriver;
 
 public class DriverFunctions {
 	
-	protected WebDriver driver;
+	private WebDriver driver;
 	
 	
 	public DriverFunctions(WebDriver driver){

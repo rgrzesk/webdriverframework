@@ -5,6 +5,10 @@ import org.openqa.selenium.firefox.FirefoxDriver;
 
 public class DriverCreator {
 	
+	private DriverCreator(){
+		
+	}
+	
 	public static FirefoxDriver getFirefoxDriver(){
 		return new FirefoxDriver();
 	}
