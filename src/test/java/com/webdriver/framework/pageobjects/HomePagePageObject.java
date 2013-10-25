@@ -19,7 +19,6 @@ import com.webdriver.framework.global.BBC;
 public class HomePagePageObject extends LoadableComponent<HomePagePageObject>{
 
 	public WebDriver driver;
-	//some comment
 	
 	private static final String FEATURE_CONTAINER_ID = "features-and-analysis-2";
 	private static final String FEATURE_CLASS = "features-header";
